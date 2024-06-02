@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+	
+	<title>Filmi</title>
+	<link rel="icon" type="image/x-icon" href="slike/logo.ico">
+	<meta charset="utf-8">
+	<meta name="description" content="Predstavitev produkcijske družbe Spotlight productions">
+	<meta name="keywords" content="produkcija, filmi, serije, dokumentarci">
+	<meta name="author" content="Anže Brovč">
+	<link rel="stylesheet" type="text/css" href="css/slog.css">
+	<script>
+		var isDisplayed = true;
+		
+		function spremeniStanjeMenija(){
+			let meni = document.getElementById("glavnaNavigacija");
+			let sez = document.getElementById("glavniMeni");
+			if(isDisplayed){
+				meni.style.height = "50px";
+				sez.style.height = "0";
+			}
+			else{
+				meni.style.height = "auto";
+				sez.style.height = "auto";
+			}
+			isDisplayed = !isDisplayed;
+			
+		}
+	</script>
+	<script src="https://kit.fontawesome.com/78c16b7397.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- >baxitiv368@ahieh.com
+	jdopJ)S)=J=DJS=POI
+	
+	ribori8442@godsigma.com
+	MIDOMD=KDKD=)k09dkkdkD=)DJNDUHJIDU
+	< -->
+	<header>
+		<nav id="glavnaNavigacija">
+			<button id="gumbGlavnegaMenija" type="button" onclick="spremeniStanjeMenija()">|||</button>
+			<img id="logo" src="slike/logo.png" width="125" alt="logo">
+			<ul id="glavniMeni">
+				<li class="dropdown"><a href="index.html" class="active">Domov</a>
+					<ul>
+						<li><a href="index.html#vsebina">O nas</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
+					</ul>
+				</li>
+				<li><a href="storitve.html">Storitve</a></li>
+				<li class="dropdown"><a href="projekti.html">Projekti</a>
+					<ul>
+						<li><a href="projekti.html#pretekliProjekti">Pretekli projekti</a></li>
+						<li><a href="projekti.html#trenutniProjekti">Trenutni projekti</a></li>
+					</ul>
+				</li>
+				<li class="dropdown"><a href="#">Produkcije</a>
+					<ul>
+						<li><a href="filmi.html">Filmi</a></li>
+						<li><a href="tvOddaje.html">Serije</a></li>
+						<li><a href="dokumentarci.html">Dokumentarci</a></li>
+					</ul>
+				</li>
+				<li><a href="novice.html">Novice</a></li>
+				<li><a href="ekipa.html">Ekipa</a></li>
+				<!-- ><li class="dropdown"><a href="kariere.html">Kariere</a>
+					<ul>
+						<li><a href="prostaDelovnaMesta.html">Prosta delovna mesta</a></li>
+						<li><a href="kspne.html">Kako se pridružiti naši ekipi</a></li>
+					</ul>
+				</li>< -->
+				<li><a href="sodelovanje.html">Sodelovanje</a></li>
+				<li><a href="nasaZgodba.html">Naša zgodba</a></li>
+			</ul>
+			
+			<div id="glavnaNavigacijaClear"></div>
+		</nav>
+		
+		<h1>FILMI</h1>
+	</header>
+	
+	<section id="filmiSection">
+		<h2>Aktualni filmi</h2>
+		<ul>
+			<li><ul class="aktualenFilm">
+				<li class="naslovF">THE BATMAN</li>
+				<li><img src="slike/filmi/batman.webp" alt="Batman"></li>
+				<li class="arrow"><i class="fa-solid fa-play"></i></li>
+				<li class="podatkifilma">
+					<ul>
+					<li><h3 class="naslovFilma">The Batman</h3></li>
+					<li>Žanr: Akcija/Kriminalka</li>
+					<li>Zasedba: Robert Pattinson
+						Zoë Kravitz
+						Paul Dano
+						Jeffrey Wright
+						John Turturro
+						Peter Sarsgaard
+						Andy Serkis
+						Colin Farrell</li>
+					<li>Dolžina: 2h 56m</li>
+					<li><h4>Kratek Opis:</h4></li>
+					<li>Ko sadistični serijski morilec začne ubijati ključne politične osebnosti v Gothamu, je Batman prisiljen raziskati skrito korupcijo v mestu in dvomiti o vpletenosti svoje družine.</li>
+					<li>Ocena:
+					<ul class="ocene">
+						<li>IMDb: 7,8 <span class="oc" style="background-image: linear-gradient(to right, yellow 78%, transparent 0);"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></li>
+						<li>Rotten tomatoes: 8,5 <span class="oc" style="background-image: linear-gradient(to right, yellow 85%, transparent 0);"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></li>
+					</ul>
+					</li>
+					</ul>
+					<iframe src="https://www.youtube.com/embed/mqqft2x_Aa4?si=f6MQVbTWiV4zcW87" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					<!-- ><div class="galerijaPosnetkov">
+					<div class="autoGallery">
+							<img src="slike/filmi/heartOfSea.jpg">
+							<img src="slike/filmi/iAmLegend.jpg">
+							<img src="slike/filmi/heartOfSea.jpg">
+							<img src="slike/filmi/iAmLegend.jpg">
+							<img src="slike/filmi/heartOfSea.jpg">
+							<img src="slike/filmi/iAmLegend.jpg">
+					</div>
+					<div class="predogledGallery">
+						<img src="slike/filmi/heartOfSea.jpg">
+						<img src="slike/filmi/iAmLegend.jpg">
+						<img src="slike/filmi/heartOfSea.jpg">
+						<img src="slike/filmi/iAmLegend.jpg">
+						<img src="slike/filmi/heartOfSea.jpg">
+						<img src="slike/filmi/iAmLegend.jpg">
+					</div>
+					</div>< -->
+				</li>
+			</ul></li>
+			
+			<li><ul class="aktualenFilm">
+				<li class="naslovF">MAZE RUNNER: THE DEATH CURE</li>
+				<li><img src="slike/filmi/mazeRunner.jpg" alt="Maze runner"></li>
+				<li class="arrow"><i class="fa-solid fa-play"></i></li>
+				<li class="podatkifilma">
+					<ul>
+					<li><h3 class="naslovFilma">Maze Runner: The death cure</h3></li>
+					<li>Žanr: Akcija/Znanstvena fantastika</li>
+					<li>Zasedba: Dylan O'Brien
+						Kaya Scodelario
+						Thomas Brodie-Sangster
+						Nathalie Emmanuel
+						Giancarlo Esposito
+						Aidan Gillen
+						Walton Goggins
+						Ki Hong Lee
+						Barry Pepper
+						Will Poulter
+						Patricia Clarkson</li>
+					<li>Dolžina: 2h 22m</li>
+					<li><h4>Kratek Opis:</h4></li>
+					<li>
+Thomas vodi nekaj pobeglih Gladerjev na njihovi zadnji in najnevarnejši misiji doslej. Da bi rešili svoje prijatelje, morajo vdreti v legendarno Zadnje mesto, labirint pod nadzorom WCKD, ki se lahko izkaže za najsmrtonosnejši labirint od vseh. Vsakdo, ki se bo rešil živega, bo dobil odgovore na vprašanja, ki si jih Gladerji zastavljajo, odkar so prispeli v labirint.</li>
+					<li>
+					<ul class="ocene">
+						<li>IMDb: 6,3 <span class="oc" style="background-image: linear-gradient(to right, yellow 63%, transparent 0);"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></li>
+						<li>Rotten tomatoes: 4,3 <span class="oc" style="background-image: linear-gradient(to right, yellow 43%, transparent 0);"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></li>
+
+					</ul>
+					</li>
+					</ul>
+					<iframe src="https://www.youtube.com/embed/4-BTxXm8KSg?si=9J8rSBc043xqd3_l" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</li>
+			</ul></li>
+			
+			<li><ul class="aktualenFilm">
+				<li class="naslovF">NI ČAS ZA SMRT</li>
+				<li><img src="slike/filmi/noTimeToDie.jpg" alt="Ni čas za smrt"></li>
+				<li class="arrow"><i class="fa-solid fa-play"></i></li>
+				<li class="podatkifilma">
+					<ul>
+					<li><h3 class="naslovFilma">Ni čas za smrt</h3></li>
+					<li>Žanr: Akcija/Avantura</li>
+					<li>Zasedba: 	
+						Daniel Craig
+						Rami Malek
+						Léa Seydoux
+						Lashana Lynch
+						Ben Whishaw
+						Naomie Harris
+						Jeffrey Wright
+						Christoph Waltz
+						Ralph Fiennes</li>
+					<li>Dolžina: 2h 43min</li>
+					<li><h4>Kratek Opis:</h4></li>
+					<li>James Bond je zapustil aktivno službo. Njegov mir je kratkotrajen, ko se pojavi Felix Leiter, stari prijatelj iz Cie, ki ga prosi za pomoč in pripelje Bonda na sled skrivnostnemu zlobnežu, oboroženemu z nevarno novo tehnologijo.</li>
+					<li>
+					<ul class="ocene">
+						<li>IMDb: 7,3 <span class="oc" style="background-image: linear-gradient(to right, yellow 73%, transparent 0);"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></li>
+						<li>Rotten tomatoes: 8,3 <span class="oc" style="background-image: linear-gradient(to right, yellow 83%, transparent 0);"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></li>
+
+					</ul>
+					</li>
+					</ul>
+					<iframe src="https://www.youtube.com/embed/BIhNsAtPbPI?si=qj_Ij5AJZp7319vI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</li>
+			</ul></li>
+			
+			<li><ul class="aktualenFilm">
+				<li class="naslovF">ZADRŽKI</li>
+				<li><img src="slike/filmi/holdovers.jpg" alt="Zadržki"></li>
+				<li class="arrow"><i class="fa-solid fa-play"></i></li>
+				<li class="podatkifilma">
+					<ul>
+					<li><h3 class="naslovFilma">Zadržki</h3></li>
+					<li>Žanr: Komedija/Drama</li>
+					<li>Zasedba: 	
+						Paul Giamatti
+						Da'Vine Joy Randolph
+						Dominic Sessa</li>
+					<li>Dolžina: 2h 13m</li>
+					<li><h4>Kratek Opis:</h4></li>
+					<li>Nejevoljni učitelj zgodovine v pripravljalni šoli je čez počitnice prisiljen ostati v kampusu z žalujočo kuharico in težavnim študentom, ki nima kam iti.</li>
+					<li>
+					<ul class="ocene">
+						<li>IMDb: 7,9 <span class="oc" style="background-image: linear-gradient(to right, yellow 79%, transparent 0);"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></li>
+						<li>Rotten tomatoes: 9,7 <span class="oc" style="background-image: linear-gradient(to right, yellow 97%, transparent 0);"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></li>
+
+					</ul>
+					</li>
+					</ul>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/AhKLpJmHhIg?si=a-_5lzkPvHzkVbRh" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</li>
+			</ul></li>
+		</ul>
+		
+		<h2>Ostali filmi</h2>
+		<div>
+			<ul class="ostaleSerije">
+			<li><figure><img src="slike/filmi/heartOfSea.jpg" alt="V srcu morja"><figcaption>V srcu morja</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/iAmLegend.jpg" alt="Jaz, legenda"><figcaption>Jaz, legenda</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/1408.jpg" alt="1408"><figcaption>1408</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/avatar.jpg" alt="Avatar"><figcaption>Avatar</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/beauIsAfraid.jpg" alt="Beau se boji"><figcaption>Beau se boji</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/civilWar.jpg" alt="Stotnik Amerika: Državljanska vojna"><figcaption>Stotnik Amerika: Državljanska vojna</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/quantumania.jpg" alt="Kvantomanija"><figcaption>Kvantomanija</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/smile.jpg" alt="Nasmeh"><figcaption>Nasmeh</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/theBody.jpg" alt="Truplo"><figcaption>Truplo</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/wakandaForever.jpg" alt="Črni panter 2"><figcaption>Črni panter 2</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/bladeRunner2049.jpg" alt="Iztrebljevalec 2"><figcaption>Iztrebljevalec 2</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/againstIce.jpg" alt="Proti ledu"><figcaption>Proti ledu</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/blackAdam.webp" alt="Črni Adam"><figcaption>Črni Adam</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/kingsmanTSS.jpg" alt="Kingsman: Tajna služba"><figcaption>Kingsman: Tajna služba</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/knivesOut.jpg" alt="Nož v hrbet"><figcaption>Nož v hrbet</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/rougeOne.jpg" alt="Rogue One"><figcaption>Rogue One</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/screamVI.jpg" alt="Krik VI"><figcaption>Krik VI</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/sonic.jpg" alt="Ježek Sonic"><figcaption>Ježek Sonic</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/theWarWithGrandpa.jpg" alt="Vojna z dedkom"><figcaption>Vojna z dedkom</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/elvis.jpeg" alt="Elvis"><figcaption>Elvis</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/getOut.jpg" alt="Zbeži!"><figcaption>Zbeži!</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/savingPrivateRyan.jpg" alt="Reševanje vojaka Ryana"><figcaption>Reševanje vojaka Ryana</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/soul.jpeg" alt="Duša"><figcaption>Duša</figcaption></figure><div></div></li>
+			<li><figure><img src="slike/filmi/whiplash.jpg" alt="Ritem norosti"><figcaption>Ritem norosti</figcaption></figure><div></div></li>
+			
+		</ul>
+		</div>
+	</section>
+	
+	<footer>
+		<div id="podatki">
+			<a href="pz.html">politika zasebnosti</a>
+			<div>&#169;2024 Spotlight productions. Vse pravice pridržane</div>
+		</div>
+		
+		<div id="kontakt">
+			<a href="kontakt.html">Kontaktirajte nas</a>
+			<a href="index.html">Domov</a>
+			<a href="storitve.html">Storitve</a>
+			<a href="projekti.html">Projekti</a>
+			<a href="filmi.html">Filmi</a>
+			<a href="tvOddaje.html">Serije</a>
+			<a href="dokumentarci.html">Dokumentarci</a>
+			<a href="novice.html">Novice</a>
+			<a href="ekipa.html">Ekipa</a>
+			<a href="sodelovanje.html">Sodelovanje</a>
+			<a href="nasaZgodba.html">Naša zgodba</a>
+		</div>
+		
+		<div id="icons">
+		<a href="#"><i class="fa-brands fa-facebook"></i></a>
+		<a href="#"><i class="fa-brands fa-twitter"></i></a>
+		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+		<a href="#"><i class="fa-brands fa-tiktok"></i></a>
+		<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+		<a href="#"><i class="fa-brands fa-discord"></i></a>
+		<a href="#"><i class="fa-brands fa-youtube"></i></a>
+		<a href="#"><i class="fa-brands fa-imdb"></i></a>
+		</div>
+		
+	</footer>
+	
+</body>
+</html>

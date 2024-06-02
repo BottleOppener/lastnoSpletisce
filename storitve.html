@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+	
+	<title>Storitve</title>
+	<link rel="icon" type="image/x-icon" href="slike/logo.ico">
+	<meta charset="utf-8">
+	<meta name="description" content="Predstavitev produkcijske družbe Spotlight productions">
+	<meta name="keywords" content="produkcija, filmi, serije, dokumentarci">
+	<meta name="author" content="Anže Brovč">
+	<link rel="stylesheet" type="text/css" href="css/slog.css">
+	<script>
+		var isDisplayed = true;
+		
+		function spremeniStanjeMenija(){
+			let meni = document.getElementById("glavnaNavigacija");
+			let sez = document.getElementById("glavniMeni");
+			if(isDisplayed){
+				meni.style.height = "50px";
+				sez.style.height = "0";
+			}
+			else{
+				meni.style.height = "auto";
+				sez.style.height = "auto";
+			}
+			isDisplayed = !isDisplayed;
+			
+		}
+	</script>
+	<script src="https://kit.fontawesome.com/78c16b7397.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- >baxitiv368@ahieh.com
+	jdopJ)S)=J=DJS=POI
+	
+	ribori8442@godsigma.com
+	MIDOMD=KDKD=)k09dkkdkD=)DJNDUHJIDU
+	< -->
+	<header>
+		<nav id="glavnaNavigacija">
+			<button id="gumbGlavnegaMenija" type="button" onclick="spremeniStanjeMenija()">|||</button>
+			<img id="logo" src="slike/logo.png" width="125" alt="logo">
+			<ul id="glavniMeni">
+				<li class="dropdown"><a href="index.html" class="active">Domov</a>
+					<ul>
+						<li><a href="index.html#vsebina">O nas</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
+					</ul>
+				</li>
+				<li><a href="storitve.html">Storitve</a></li>
+				<li class="dropdown"><a href="projekti.html">Projekti</a>
+					<ul>
+						<li><a href="projekti.html#pretekliProjekti">Pretekli projekti</a></li>
+						<li><a href="projekti.html#trenutniProjekti">Trenutni projekti</a></li>
+					</ul>
+				</li>
+				<li class="dropdown"><a href="#">Produkcije</a>
+					<ul>
+						<li><a href="filmi.html">Filmi</a></li>
+						<li><a href="tvOddaje.html">Serije</a></li>
+						<li><a href="dokumentarci.html">Dokumentarci</a></li>
+					</ul>
+				</li>
+				<li><a href="novice.html">Novice</a></li>
+				<li><a href="ekipa.html">Ekipa</a></li>
+				<!-- ><li class="dropdown"><a href="kariere.html">Kariere</a>
+					<ul>
+						<li><a href="prostaDelovnaMesta.html">Prosta delovna mesta</a></li>
+						<li><a href="kspne.html">Kako se pridružiti naši ekipi</a></li>
+					</ul>
+				</li>< -->
+				<li><a href="sodelovanje.html">Sodelovanje</a></li>
+				<li><a href="nasaZgodba.html">Naša zgodba</a></li>
+			</ul>
+			
+			<div id="glavnaNavigacijaClear"></div>
+		</nav>
+		
+		<h1>STORITVE</h1>
+	</header>
+	
+	
+	
+	<section class="storitveSection">
+		<a href="#razvojVsebin">Razvoj vsebin</a>
+		<a href="#predprodukcija">Predprodukcija</a>
+		<a href="#produkcija">Produkcija</a>
+		<a href="#postprodukcija">Postprodukcija</a>
+		<a href="#dit">Distribucija in trženje</a>
+		<a href="#ppiup">Pravna podpora in upravljanje pravic</a>	
+	</section>
+	
+	<section class="opisStoritev">
+		<div>
+		<h2 id="razvojVsebin">Razvoj vsebin</h2>
+		<div>
+			<div>Naša ekipa kreativnih strokovnjakov se osredotoča na ustvarjanje edinstvenih in privlačnih vsebin, ki bodo pritegnile pozornost občinstva in izpolnile vaše vizije. Sodelujemo z vami od samega začetka, da razvijemo ideje v celovite projekte. Naše storitve vključujejo:</div>
+			<img src="slike/storitve/razvojVsebin.jpg" alt="razvoj vsebin">
+			<ul>
+				<li>Idejna zasnova: Pomagamo vam razviti osnovno idejo, ki bo postala temelj vašega projekta. Upoštevamo trende na trgu in ustvarjamo zgodbe, ki resonirajo z občinstvom.</li>
+				<li>Pisanje scenarijev: Naša ekipa izkušenih scenaristov oblikuje kompleksne in globoke scenarije, ki vključujejo dobro razvite like in intrigantne zaplete.</li>
+				<li>Ustvarjanje likov: Razvijamo tridimenzionalne like z edinstvenimi osebnostmi in zgodbami, ki se povezujejo z občinstvom.</li>
+				<li>Raziskovanje in razvoj zgodbe: Izvajamo temeljite raziskave, da zagotovimo avtentičnost in globino vaših zgodb, bodisi zgodovinskih, znanstvenih ali fikcijskih.</li>
+			</ul>
+			<div class="clrFloat"></div>
+		</div>
+		</div>
+		<div>
+		<h2 id="predprodukcija">Predprodukcija</h2>
+		<div>
+			<div>Natančno načrtovanje je ključno za uspešno izvedbo kateregakoli projekta. Naša predprodukcijska ekipa zagotavlja, da je vsak vidik vašega projekta pripravljen do popolnosti. Naše storitve vključujejo:</div>
+			<img src="slike/storitve/predprodukcija.jpg" alt="predprodukcija">
+			<ul>
+				<li>Lokacijski ogled in izbira: Naša ekipa identificira in zagotavlja najprimernejše snemalne lokacije, ki ustrezajo potrebam vašega projekta.</li>
+				<li>Kasting: Organiziramo avdicije in izbiramo igralce, ki bodo najbolje utelešili vaše like.</li>
+				<li>Priprava snemalne opreme: Zagotavljamo vrhunsko snemalno opremo in tehnologijo, ki je potrebna za vaš projekt.</li>
+				<li>Načrtovanje urnikov: Učinkovito načrtujemo urnike snemanja, da zagotovimo nemoten potek produkcije in optimalno rabo časa in sredstev.</li>
+				<li>Usklajevanje produkcijske ekipe: Sestavimo in koordiniramo produkcijsko ekipo, ki je potrebna za uspešno izvedbo vašega projekta.</li>
+			</ul>
+			<div class="clrFloat"></div>
+		</div>
+		</div>
+		<div>
+		<h2 id="produkcija">Produkcija</h2>
+		<div>
+			<div>Ko so vsi predprodukcijski elementi na mestu, se osredotočimo na realizacijo vašega projekta. Naša produkcijska ekipa je sestavljena iz izkušenih profesionalcev, ki zagotavljajo visokokakovostne rezultate. Naše storitve vključujejo:</div>
+			<img src="slike/storitve/produkcija.jpg" alt="produkcija">
+			<ul>
+				<li>Snemanje: Uporabljamo najsodobnejšo opremo in tehnologijo, da zajamemo izjemne vizualne in zvočne posnetke.</li>
+				<li>Upravljanje produkcije: Naša produkcijska ekipa skrbi za koordinacijo vseh aspektov snemanja, od režije do logistike, da zagotovimo gladek potek produkcije.</li>
+				<li>Kreativno vodenje: Sodelujemo z režiserji in ustvarjalnimi vodji, da zagotovimo, da je vsak posnetek v skladu z vizijo projekta.</li>
+			</ul>
+			<div class="clrFloat"></div>
+		</div>
+		</div>
+		<div>
+		<h2 id="postprodukcija">Postprodukcija</h2>
+		<div>
+			<div>V postprodukcijski fazi vašemu projektu dodamo končne poteze, ki ga povzdignejo na višjo raven. Naša postprodukcijska ekipa poskrbi za vse vidike obdelave posnetkov. Naše storitve vključujejo:</div>
+			<img src="slike/storitve/postprodukcija.jpg" alt="postprodukcija">
+			<ul>
+				<li>Montaža: Naši izkušeni montažerji skrbno izbirajo in urejajo posnetke, da ustvarijo tekočo in privlačno zgodbo.</li>
+				<li>Vizualni učinki (VFX): Dodajamo osupljive vizualne učinke, ki izboljšajo vizualno izkušnjo in dodajo globino vašemu projektu.</li>
+				<li>Zvok: Poskrbimo za vrhunsko zvočno obdelavo, vključno z mešanjem zvoka, oblikovanjem zvočnih efektov in glasbo, ki podpre zgodbo.</li>
+				<li>Barvna korekcija: Uporabljamo napredne tehnike barvne korekcije, da dosežemo želeni vizualni slog in vzdušje.</li>
+			</ul>
+			<div class="clrFloat"></div>
+		</div>
+		</div>
+		<div>
+		<h2 id="dit">Distribucija in trženje</h2>
+		<div>
+			<div>Ko je vaš projekt dokončan, poskrbimo, da doseže pravo občinstvo. Naša ekipa za distribucijo in trženje razvije strategije, ki zagotavljajo uspeh vašega projekta. Naše storitve vključujejo:</div>
+			<img src="slike/storitve/dit.png" alt="distribucija in trženje">
+			<ul>
+				<li>Distribucija: Sodelujemo s priznanimi distribucijskimi partnerji, da zagotovimo široko in učinkovito distribucijo vaših vsebin.</li>
+				<li>Digitalna distribucija: Uporabljamo digitalne platforme in storitve za dosego globalnega občinstva.</li>
+				<li>Trženje: Razvijamo in izvajamo celovite marketinške kampanje, ki povečajo prepoznavnost in angažiranost vašega občinstva.</li>
+				<li>Upravljanje družbenih medijev: Aktivno upravljamo vaše prisotnosti na družbenih omrežjih, da povečamo doseg in interakcijo z občinstvom.</li>
+			</ul>
+			<div class="clrFloat"></div>
+		</div>
+		</div>
+		<div>
+		<h2 id="ppiup">Pravna podpora in upravljanje pravic</h2>
+		<div>
+			<div>Pravna podpora je ključnega pomena za zaščito vaših vsebin in intelektualne lastnine. Naša pravna ekipa zagotavlja, da so vsi pravni vidiki vašega projekta urejeni. Naše storitve vključujejo:</div>
+			<img src="slike/storitve/ppiup.jpg" alt="pravna podpora in upravljanje pravic">
+			<ul>
+				<li>Pogodbe in licenciranje: Pripravljamo in pregledujemo vse pogodbe, da zagotovimo zaščito vaših pravic in interesov.</li>
+				<li>Upravljanje pravic: Spremljamo in upravljamo pravice intelektualne lastnine, da zagotovimo skladnost z vsemi predpisi in zakonodajo.</li>
+				<li>Pravna svetovanja: Nudimo strokovna pravna svetovanja v vseh fazah produkcije, od razvoja do distribucije.</li>
+			</ul>
+			<div class="clrFloat"></div>
+		</div>
+		</div>
+	</section>
+	
+	
+	<footer>
+		<div id="podatki">
+			<a href="pz.html">politika zasebnosti</a>
+			<div>&#169;2024 Spotlight productions. Vse pravice pridržane</div>
+		</div>
+		
+		<div id="kontakt">
+			<a href="kontakt.html">Kontaktirajte nas</a>
+			<a href="index.html">Domov</a>
+			<a href="storitve.html">Storitve</a>
+			<a href="projekti.html">Projekti</a>
+			<a href="filmi.html">Filmi</a>
+			<a href="tvOddaje.html">Serije</a>
+			<a href="dokumentarci.html">Dokumentarci</a>
+			<a href="novice.html">Novice</a>
+			<a href="ekipa.html">Ekipa</a>
+			<a href="sodelovanje.html">Sodelovanje</a>
+			<a href="nasaZgodba.html">Naša zgodba</a>
+		</div>
+		
+		<div id="icons">
+		<a href="#"><i class="fa-brands fa-facebook"></i></a>
+		<a href="#"><i class="fa-brands fa-twitter"></i></a>
+		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+		<a href="#"><i class="fa-brands fa-tiktok"></i></a>
+		<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+		<a href="#"><i class="fa-brands fa-discord"></i></a>
+		<a href="#"><i class="fa-brands fa-youtube"></i></a>
+		<a href="#"><i class="fa-brands fa-imdb"></i></a>
+		</div>
+		
+	</footer>
+	
+	
+</body>
+</html>

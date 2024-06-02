@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+	
+	<title>Projekti</title>
+	<link rel="icon" type="image/x-icon" href="slike/logo.ico">
+	<meta charset="utf-8">
+	<meta name="description" content="Predstavitev produkcijske družbe Spotlight productions">
+	<meta name="keywords" content="produkcija, filmi, serije, dokumentarci">
+	<meta name="author" content="Anže Brovč">
+	<link rel="stylesheet" type="text/css" href="css/slog.css">
+	<script>
+		var isDisplayed = true;
+		
+		function spremeniStanjeMenija(){
+			let meni = document.getElementById("glavnaNavigacija");
+			let sez = document.getElementById("glavniMeni");
+			if(isDisplayed){
+				meni.style.height = "50px";
+				sez.style.height = "0";
+			}
+			else{
+				meni.style.height = "auto";
+				sez.style.height = "auto";
+			}
+			isDisplayed = !isDisplayed;
+			
+		}
+	</script>
+	<script src="https://kit.fontawesome.com/78c16b7397.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- >baxitiv368@ahieh.com
+	jdopJ)S)=J=DJS=POI
+	
+	ribori8442@godsigma.com
+	MIDOMD=KDKD=)k09dkkdkD=)DJNDUHJIDU
+	< -->
+	<header>
+		<nav id="glavnaNavigacija">
+			<button id="gumbGlavnegaMenija" type="button" onclick="spremeniStanjeMenija()">|||</button>
+			<img id="logo" src="slike/logo.png" width="125" alt="logo">
+			<ul id="glavniMeni">
+				<li class="dropdown"><a href="index.html" class="active">Domov</a>
+					<ul>
+						<li><a href="index.html#vsebina">O nas</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
+					</ul>
+				</li>
+				<li><a href="storitve.html">Storitve</a></li>
+				<li class="dropdown"><a href="projekti.html">Projekti</a>
+					<ul>
+						<li><a href="projekti.html#pretekliProjekti">Pretekli projekti</a></li>
+						<li><a href="projekti.html#trenutniProjekti">Trenutni projekti</a></li>
+					</ul>
+				</li>
+				<li class="dropdown"><a href="#">Produkcije</a>
+					<ul>
+						<li><a href="filmi.html">Filmi</a></li>
+						<li><a href="tvOddaje.html">Serije</a></li>
+						<li><a href="dokumentarci.html">Dokumentarci</a></li>
+					</ul>
+				</li>
+				<li><a href="novice.html">Novice</a></li>
+				<li><a href="ekipa.html">Ekipa</a></li>
+				<!-- ><li class="dropdown"><a href="kariere.html">Kariere</a>
+					<ul>
+						<li><a href="prostaDelovnaMesta.html">Prosta delovna mesta</a></li>
+						<li><a href="kspne.html">Kako se pridružiti naši ekipi</a></li>
+					</ul>
+				</li>< -->
+				<li><a href="sodelovanje.html">Sodelovanje</a></li>
+				<li><a href="nasaZgodba.html">Naša zgodba</a></li>
+			</ul>
+			
+			<div id="glavnaNavigacijaClear"></div>
+		</nav>
+		
+		<h1>PROJEKTI</h1>
+	</header>
+	
+	<section class="projekti">
+		<div>
+			Dobrodošli na strani "Projekti", kjer lahko spoznate naše trenutne produkcije in pretekle dosežke. Naša produkcijska družba se osredotoča na ustvarjanje vrhunskih filmov, serij in dokumentarcev, ki navdihujejo, izobražujejo in zabavajo občinstvo po vsem svetu. Ponosni smo na našo bogato zgodovino in vznemirljiva sedanjost, zato vam z veseljem predstavljamo, na čem trenutno delamo, ter pregled preteklih projektov, ki so zaznamovali našo pot.
+		</div>
+		
+		<h2 id="trenutniProjekti">Trenutni Projekti</h2>
+		<div class="cols">
+		<div>Naš najnovejši film, "Svetloba v temi", raziskuje globoke in ganljive zgodbe posameznikov, ki se soočajo z največjimi življenjskimi izzivi. Z inovativno uporabo svetlobe in senc ustvarjamo čustveno bogato vizualno izkušnjo, ki bo občinstvu še dolgo ostala v spominu. Film je trenutno v fazi postprodukcije in že pridobiva pozornost na mednarodnih filmskih festivalih.<a href="#svt">Preberi več<i class="fa-solid fa-play"></i></a></div>
+		
+		<div>Poleg tega delamo na novi seriji z naslovom "Potovanje skozi čas", ki popelje gledalce na razburljivo popotovanje skozi zgodovinske dogodke, videne skozi oči navadnih ljudi. S skrbno raziskavo in pristnim prikazom obdobij ustvarjamo serijo, ki ne le zabava, ampak tudi izobražuje. Trenutno snemamo tretjo sezono, ki bo raziskovala obdobje renesanse.<a href="#psc">Preberi več<i class="fa-solid fa-play"></i></a></div>
+		
+		<div>Naš aktualni dokumentarec, "Glas planeta", raziskuje vpliv človeških dejavnosti na naš planet in ponuja rešitve za trajnostno prihodnost. Z uporabo vrhunske tehnologije in edinstvenih pripovednih tehnik prinašamo gledalcem poglobljen pogled na okoljske izzive in inovativne rešitve. Dokumentarec je v fazi produkcije, pri čemer sodelujemo z več okoljskimi organizacijami po svetu.<a href="#gp">Preberi več<i class="fa-solid fa-play"></i></a></div>
+		</div>
+		
+		<div id="svt" class="projekt">
+		<h3>Svetloba v temi</h3>
+		<h4>Opis Zgodbe</h4>
+		<div>Svetloba v temi je ganljiv in intimen portret človeških izkušenj, ki se odvija v svetu globokih čustev in najtemnejših izzivov. Zgodba spremlja skupino posameznikov, vsak s svojo edinstveno zgodbo in bojem, ki se prepletajo v nenavadnih in nepričakovanih načinih. Skozi inovativno uporabo svetlobe in senc ustvarjamo vizualno bogato izkušnjo, ki gledalcem omogoča, da se popolnoma potopijo v čustveni svet likov.</div>
+		
+		<div class="cols2">
+			<div>
+				<h4>Razvoj Produkcije</h4>
+				<div>Izdelava filma "Svetloba v temi" je zahtevala temeljito načrtovanje in sodelovanje med različnimi ustvarjalnimi ekipami. Začetni koraki so vključevali raziskovanje teme, razvoj scenarija in iskanje ustvarjalnega pristopa, ki bi najbolje izrazil globino zgodbe. Nato je sledila faza castinga, kjer smo izbrali igralce, ki so lahko prepričljivo upodobili kompleksne like.</div>
+			</div>
+			<div>
+				<h4>Ustvarjalni Proces</h4>
+				<div>Med snemanjem smo se osredotočili na ustvarjanje vzdušja, ki bi omogočilo igralcem, da izrazijo svoje najgloblje občutke in prepričljivo upodobijo svoje like. Režiser je sodeloval z direktorjem fotografije, da bi dosegel želeno atmosfero in izrazil subtilna čustva skozi uporabo svetlobe in senc. Vsaka scena je bila skrbno načrtovana in izvedena, da bi zajela bistvo zgodbe in čustva likov.</div>
+			</div>
+		</div>
+		
+		<h4>Igralci</h4>
+		<div>V filmu "Svetloba v temi" nastopa vrhunska zasedba igralcev, ki so svoje vloge izvedli z izjemno prepričljivostjo. Med glavnimi igralci so Ana Kovač, Tine Žagar, Matej Dolinar in Sara Bezjak, ki so s svojimi interpretacijami ustvarili resnične in ganljive like, ki ostanejo v spominu gledalcev še dolgo po tem, ko se film konča.</div>
+		
+		<h4>Tehnične Podrobnosti</h4>
+		<div>Film "Svetloba v temi" je bil posnet z uporabo najnovejše filmske tehnologije, ki je omogočila ustvarjanje visokokakovostnih posnetkov z bogatimi podrobnostmi in živahnimi barvami. Montaža in postprodukcija sta dodatno pripomogla k ustvarjanju napetosti in dramatičnosti zgodbe, medtem ko je glasba in zvok pomagala ustvariti vzdušje in čustveno globino.</div>
+		
+		<h4>Pridobitev Pozornosti na Mednarodnih Filmskih Festivalih</h4>
+		<div>Kljub temu, da je film "Svetloba v temi" še vedno v fazi postprodukcije, že pridobiva pozornost na mednarodnih filmskih festivalih. Predstavitve na festivalih so priložnost za povečanje zavedanja o filmu in navezovanje stikov s potencialnimi distributerji in občinstvom. Ekipa je navdušena nad odzivom in nestrpno pričakuje premiero filma, ki bo zagotovo segla v srca gledalcev po vsem svetu.</div>
+		
+		<h4>Zaključek</h4>
+		<div>Film "Svetloba v temi" je več kot le film, je čustveno potovanje, ki bo gledalcem omogočilo, da razmislijo o lastnih izkušnjah in občutkih. Skozi močno igro, vizualno privlačnost in globoko zgodbo, film pušča trajen vtis in spodbuja k razmisleku o pomenu življenja, ljubezni in človeškega sočutja.</div>
+		</div>
+		
+		<div id="psc" class="projekt">
+		<h3>Potovanje skozi čas</h3>
+		<h4>Opis Zgodbe</h4>
+		<div>Potovanje skozi čas je inovativna in navdihujoča serija, ki gledalce popelje na razburljivo popotovanje skozi ključne zgodovinske dogodke. Vsaka epizoda prikaže edinstvene zgodbe, videne skozi oči navadnih ljudi, ki so živeli v različnih obdobjih zgodovine. Serija združuje pristne zgodovinske detajle in čustveno nabite osebne zgodbe, ki gledalcem ponujajo nepozabno izkušnjo in jim omogočajo globlje razumevanje preteklosti.</div>
+		
+		<div class="cols2">
+			<div>
+				<h4>Razvoj Produkcije</h4>
+				<div>Razvoj serije "Potovanje skozi čas" je zahteval obsežno raziskavo in skrbno načrtovanje. Scenaristi so tesno sodelovali z zgodovinarji in strokovnjaki za posamezna obdobja, da bi zagotovili pristnost in natančnost vsake epizode. Po izdelavi scenarijev smo se osredotočili na izbiro snemalnih lokacij, kostumov in rekvizitov, ki bi čim bolje odražali duh časa, v katerem se zgodba dogaja.</div>
+			</div>
+			<div>
+				<h4>Ustvarjalni Proces</h4>
+				<div>Ustvarjalni proces snemanja serije je bil dinamičen in izjemno sodelovalen. Režiserji in igralci so natančno preučevali zgodovinske vire, da bi ustvarili čim bolj verodostojne upodobitve. Snemanje je potekalo na različnih avtentičnih lokacijah, ki so prispevale k zgodovinski natančnosti serije. Poleg tega smo uporabili vrhunsko produkcijsko opremo in tehnologijo za ustvarjanje vizualno osupljivih prizorov.</div>
+			</div>
+		</div>
+		
+		<h4>Igralci</h4>
+		<div>Serija "Potovanje skozi čas" se ponaša z nadarjeno zasedbo igralcev, ki so s svojimi nastopi vdahnili življenje zgodovinskim likom. Med glavnimi igralci so Luka Potočnik, Nina Vidmar, Matej Dolinar in Sara Bezjak. Vsak igralec je z izjemno predanostjo in občutkom za podrobnosti upodobil različne like iz preteklosti, kar je omogočilo ustvarjanje verodostojnih in čustveno bogatih zgodb.</div>
+		
+		<h4>Tehnične Podrobnosti</h4>
+		<div>Snemanje serije "Potovanje skozi čas" je zahtevalo uporabo najsodobnejše tehnologije in opreme. Visokokakovostne kamere in napredni snemalni postopki so omogočili zajemanje podrobnosti in ustvarjanje vizualno privlačnih prizorov. Poleg tega je bila pomembna vloga postprodukcije, kjer smo s skrbno montažo in vizualnimi učinki dodali dodatno dimenzijo realnosti in zgodovinske natančnosti.</div>
+		
+		<h4>Snemanje Tretje Sezone</h4>
+		<div>Trenutno smo v fazi snemanja tretje sezone, ki bo raziskovala obdobje renesanse. Ta sezona bo predstavila ključne zgodovinske osebnosti in dogodke, ki so oblikovali to pomembno obdobje v zgodovini človeštva. Posebna pozornost je bila namenjena raziskavi umetnosti, znanosti in kulture renesanse, da bi gledalcem ponudili celovit in pristen vpogled v to obdobje.</div>
+		
+		<h4>Edukativna Vrednost</h4>
+		<div>Ena izmed ključnih prednosti serije "Potovanje skozi čas" je njena edukativna vrednost. Skozi pristne in podrobno raziskane zgodovinske pripovedi serija ne le zabava, ampak tudi izobražuje gledalce. Vsaka epizoda ponuja globlji vpogled v zgodovinske dogodke in obdobja, ki so oblikovala svet, v katerem živimo danes.</div>
+		
+		<h4>Zaključek</h4>
+		<div>"Potovanje skozi čas" je več kot le televizijska serija; je vabilo na nepozabno popotovanje skozi zgodovino. S skrbno raziskavo, odlično igro in napredno tehnologijo serija ponuja edinstveno izkušnjo, ki gledalce popelje v preteklost in jih obenem povezuje s sedanjostjo. Pridružite se nam na tej razburljivi poti in odkrijte zgodbe, ki so oblikovale naš svet.</div>
+		
+		</div>
+		
+		<div id="gp" class="projekt">
+		<h3>Glas planeta</h3>
+		<h4>Opis Zgodbe</h4>
+		<div>Glas planeta je aktualni dokumentarec, ki globoko raziskuje vpliv človeških dejavnosti na naš planet. Dokumentarec ponuja poglobljen pogled na okoljske izzive, s katerimi se soočamo danes, in raziskuje inovativne rešitve za trajnostno prihodnost. Z uporabo vrhunske tehnologije in edinstvenih pripovednih tehnik gledalcem prinaša jasno sliko o nujnosti ukrepanja za ohranitev našega planeta.</div>
+		
+		<div class="cols2">
+			<div>
+				<h4>Razvoj Produkcije</h4>
+				<div>Razvoj dokumentarca "Glas planeta" se je začel z obsežno raziskavo in zbiranjem podatkov o okoljskih vprašanjih. Ustvarjalna ekipa je tesno sodelovala z znanstveniki, okoljskimi strokovnjaki in aktivisti, da bi zagotovila natančnost in zanesljivost predstavljenih informacij. Načrtovanje produkcije je vključevalo izbiro snemalnih lokacij po vsem svetu, kjer so okoljske spremembe najbolj očitne in pereče.</div>
+			</div>
+			<div>
+				<h4>Ustvarjalni Proces</h4>
+				<div>Ustvarjalni proces snemanja dokumentarca je bil intenziven in večplastni. Ekipa je potovala na različne konce sveta, da bi posnela pristne prizore, ki prikazujejo vplive človeških dejavnosti na naravo. Posebna pozornost je bila namenjena zajemanju posnetkov z uporabo dronov, podvodnih kamer in časovnih zamikov, kar je omogočilo ustvarjanje vizualno osupljivih prizorov.</div>
+			</div>
+		</div>
+		
+		<h4>Sodelovanje z Okoljskimi Organizacijami</h4>
+		<div>Pri projektu "Glas planeta" sodelujemo z več uglednimi okoljskimi organizacijami po svetu. Ta partnerstva omogočajo dostop do najnovejših raziskav in podatkov ter omogočajo organizacijam, da predstavijo svoje delo širši javnosti. S tem dokumentarec služi tudi kot platforma za ozaveščanje in spodbujanje k aktivnemu sodelovanju v prizadevanjih za varovanje okolja.</div>
+		
+		<h4>Tehnične Podrobnosti</h4>
+		<div>Dokumentarec "Glas planeta" je bil posnet z uporabo najnovejše tehnologije, kar je omogočilo ustvarjanje visokokakovostnih posnetkov z neverjetnimi podrobnostmi in barvami. Uporaba napredne opreme je omogočila snemanje v ekstremnih pogojih, od polarnih območij do tropskih gozdov. Postprodukcija je vključevala natančno montažo in vključitev posebnih efektov, ki poudarijo naravne lepote in krhkost našega planeta.</div>
+		
+		<h4>Edukativna Vrednost</h4>
+		<div>"Glas planeta" ni le dokumentarec, temveč tudi močno orodje za izobraževanje in ozaveščanje. Gledalcem ponuja vpogled v kompleksne ekološke procese in izzive, s katerimi se sooča naš planet, ter jih spodbuja k razmisleku in ukrepanju. Dokumentarec je zasnovan tako, da gledalcem ponudi praktične rešitve in načine, kako lahko vsak posameznik prispeva k trajnostnemu razvoju.</div>
+		
+		<h4>Pridobitev Pozornosti na Mednarodnih Filmskih Festivalih</h4>
+		<div>Dokumentarec "Glas planeta" že pridobiva pozornost na mednarodnih filmskih festivalih in okoljevarstvenih konferencah. Predstavitve na teh dogodkih omogočajo širjenje ozaveščenosti in spodbujajo razpravo o ključnih okoljskih vprašanjih. Dokumentarec je prejel številne pohvale za svojo pristnost, vizualno privlačnost in močno sporočilo.</div>
+		
+		<h4>Zaključek</h4>
+		<div>"Glas planeta" je več kot le dokumentarec; je poziv k dejanjem in priložnost za vsakogar, da se zavzame za varovanje našega planeta. Skozi skrbno raziskane in vizualno osupljive prizore dokumentarec ponuja gledalcem globok vpogled v stanje našega okolja in jih spodbuja k sodelovanju pri iskanju rešitev za trajnostno prihodnost. Pridružite se nam in prisluhnite glasu našega planeta, ki nas kliče k odgovornosti in ukrepanju.</div>
+		
+		</div>
+		<h2 id="pretekliProjekti">Pretekli Projekti</h2>
+		
+		<table>
+			<caption>Naši pretekli projekti so bili ključni pri oblikovanju naše identitete in pridobivanju mednarodnega priznanja. Nekateri izmed njih vključujejo:</caption>
+		  <thead>
+			<tr>
+			  <th rowspan="2">Naslov projekta</th>
+			  <th rowspan="2">Leto izdaje</th>
+			  <th rowspan="2">Žanr</th>
+			  <th colspan="2">Ustvarjalci</th>
+			  <th rowspan="2">Nagrade in priznanja</th>
+			  <th rowspan="2">Produkcijski partnerji</th>
+			</tr>
+			<tr>
+			  <th>Režiser</th>
+			  <th>Glavni igralci/ustvarjalci</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<tr>
+			  <td>Skrivnosti oceana</td>
+			  <td>2018</td>
+			  <td>Dokumentarec</td>
+			  <td>Marko Novak</td>
+			  <td>Ana Kovač, Tine Žagar</td>
+			  <td>Najboljši dokumentarec 2018</td>
+			  <td>Ocean Films, Green Planet</td>
+			</tr>
+			<tr>
+			  <td>Življenje v senci</td>
+			  <td>2019</td>
+			  <td>Drama</td>
+			  <td>Eva Horvat</td>
+			  <td>Luka Potočnik, Nina Vidmar</td>
+			  <td>Zlati lev za najboljšo režijo</td>
+			  <td>Horizon Productions</td>
+			</tr>
+			<tr>
+			  <td>Zgodbe iz preteklosti</td>
+			  <td>2020</td>
+			  <td>Zgodovinski</td>
+			  <td>Peter Gregorčič</td>
+			  <td>Matej Dolinar, Sara Bezjak</td>
+			  <td>Nagrada občinstva</td>
+			  <td>Historic Films</td>
+			</tr>
+			<tr>
+			  <td>Sanje v mestu</td>
+			  <td>2021</td>
+			  <td>Komedija</td>
+			  <td>Alenka Breznik</td>
+			  <td>David Tratar, Maja Lebar</td>
+			  <td>Nagrada za najboljšo komedijo</td>
+			  <td>Urban Stories Studio</td>
+			</tr>
+			<tr>
+			  <td>Moč ljubezni</td>
+			  <td>2022</td>
+			  <td>Romantična drama</td>
+			  <td>Miha Rozman</td>
+			  <td>Katja Novak, Mark Vidic</td>
+			  <td>Nagrada za najboljši scenarij</td>
+			  <td>Love Stories Productions</td>
+			</tr>
+			<tr>
+			  <td>Pogum v temi</td>
+			  <td>2023</td>
+			  <td>Triler</td>
+			  <td>Jasna Ogrin</td>
+			  <td>Jure Košir, Petra Mlakar</td>
+			  <td>Zlati medved za najboljši film</td>
+			  <td>Dark Thrills Studios</td>
+			</tr>
+			<tr>
+			  <td>Skrivnosti oceana</td>
+			  <td>2018</td>
+			  <td>Dokumentarec</td>
+			  <td>Marko Novak</td>
+			  <td>Ana Kovač, Tine Žagar</td>
+			  <td>Najboljši dokumentarec 2018</td>
+			  <td>Ocean Films, Green Planet</td>
+			</tr>
+			<tr>
+			  <td>Neskončna potovanja</td>
+			  <td>2017</td>
+			  <td>Pustolovski</td>
+			  <td>Lara Novak</td>
+			  <td>Gregor Kovač, Petra Zupan</td>
+			  <td>Zlata palma za najboljši film</td>
+			  <td>Adventure Studios</td>
+			</tr>
+			<tr>
+			  <td>Rojstvo legende</td>
+			  <td>2016</td>
+			  <td>Biografski</td>
+			  <td>Simon Petrovič</td>
+			  <td>Žan Novak, Ana Petrović</td>
+			  <td>Nagrada akademije za najboljši scenarij</td>
+			  <td>Legend Films</td>
+			</tr>
+			<tr>
+			  <td>Skriti svetovi</td>
+			  <td>2015</td>
+			  <td>Fantazijski</td>
+			  <td>Maja Kovač</td>
+			  <td>Žiga Novak, Eva Mlakar</td>
+			  <td>Zlata ptica za najboljšo vizualno umetnost</td>
+			  <td>Fantasy Productions</td>
+			</tr>
+		  </tbody>
+		</table>
+	</section>
+	
+	<footer>
+		<div id="podatki">
+			<a href="pz.html">politika zasebnosti</a>
+			<div>&#169;2024 Spotlight productions. Vse pravice pridržane</div>
+		</div>
+		
+		<div id="kontakt">
+			<a href="kontakt.html">Kontaktirajte nas</a>
+			<a href="index.html">Domov</a>
+			<a href="storitve.html">Storitve</a>
+			<a href="projekti.html">Projekti</a>
+			<a href="filmi.html">Filmi</a>
+			<a href="tvOddaje.html">Serije</a>
+			<a href="dokumentarci.html">Dokumentarci</a>
+			<a href="novice.html">Novice</a>
+			<a href="ekipa.html">Ekipa</a>
+			<a href="sodelovanje.html">Sodelovanje</a>
+			<a href="nasaZgodba.html">Naša zgodba</a>
+		</div>
+		
+		<div id="icons">
+		<a href="#"><i class="fa-brands fa-facebook"></i></a>
+		<a href="#"><i class="fa-brands fa-twitter"></i></a>
+		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+		<a href="#"><i class="fa-brands fa-tiktok"></i></a>
+		<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+		<a href="#"><i class="fa-brands fa-discord"></i></a>
+		<a href="#"><i class="fa-brands fa-youtube"></i></a>
+		<a href="#"><i class="fa-brands fa-imdb"></i></a>
+		</div>
+		
+	</footer>
+</body>
+
+</html>
